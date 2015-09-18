@@ -28,3 +28,5 @@ Stuff that needs a doing:
   - Contingency plans
   
 ## Why do we need to use ARCHER?
+
+Given the approximate sizes of the jobs highlighted in the technical assessment (~16,000 cores or ~10% of total cores), ARCHER really is the only machine large enough to perform these sorts of calculations within the UK. In addition to this, the environment, libraries etc, provided on ARCHER will allow us to tune and run CONQUEST to its fullest potential. Since the proposed calculations will be amoung the largest ever done, certainly for *ab-initio* molecular dynamics, the high speed interconnects on ARCHER are a requisite to achieve the scaling required for such massive calculations.
