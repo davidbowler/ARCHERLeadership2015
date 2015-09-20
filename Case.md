@@ -11,6 +11,7 @@ Stuff that needs a doing:
 ## Novelty & Timeliness
   - Reference experimental work ( esp. Fukata-san )
     - How new is this field? ( doped NWs )
+Whilst the Si-Ge heterostructures have been studied since the mid-70s, it is only in the last 13 years that growth of radial heterostructures (i.e. core-shell) has been possible due to advances in the experimental techniques. Core-shell NWs have several advantages over the other possible heterostructures: (i) better confinement of carriers due to sharp interfaces, (ii) carrier mobilities in Ge are higher than in Si. These make 
     - Why do we need to carry out work like this? ( limited experimental anaylysis available )
   - Large NWs needed to remove the finite size effects of doping and stress.
   - Ion implantation used as a standard method for doping semiconductors.
