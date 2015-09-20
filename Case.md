@@ -30,6 +30,10 @@ In order to ensure rapid calculations we have chosen to use pseudo-atomic orbita
   - What will we do? 
   - How will we do it? 
   - Contingency plans
+In this seciton we will attempt to describe how we will execute this project, breaking down the steps needed to ultimately deliver a high quality, high impact research project. The calculations will be performed on a single Ge core size and three Si shell sizes, which we know to be the most stable given the surface morphology of our NW system from a paper which is currently being prepared for publication. We will then dope these structures with B, using ion implantation and molecular dynamics, bombarding both the (100) and (111) facets. Since the entire project is high risk a large amount of time will be devoted to testing and optimising parameters used in the final large calculations. 
+
+- First we need to determine the optimal PAO radii, XL-BOMD damping and L-range. We will do this by conducting small scale runs with our smallest diameter nanowire. 
+- We now need to determine how long equilibration will take. By using a full scale undoped nanowire
   
 ## Why do we need to use ARCHER?
 
