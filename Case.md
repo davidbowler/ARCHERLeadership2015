@@ -1,21 +1,13 @@
 # Case for suppport
 
-Stuff that needs a doing:
 
-## Introduction ( 1 paragraph )
-  - Why NWs?
-  - Why doping ( w.r.t. ion implantation )?
-  - Why use O(*N*) DFT?
-  - What are we doing?
-  
-## Novelty & Timeliness
-  - Reference experimental work ( esp. Fukata-san )
-    - How new is this field? ( doped NWs )
-Whilst the Si-Ge heterostructures have been studied since the mid-70s, it is only in the last 13 years that growth of radial heterostructures (i.e. core-shell) has been possible due to advances in the experimental techniques. Core-shell NWs have several advantages over the other possible heterostructures: (i) better confinement of carriers due to sharp interfaces, (ii) carrier mobilities in Ge are higher than in Si. These make 
-    - Why do we need to carry out work like this? ( limited experimental anaylysis available )
-  - Large NWs needed to remove the finite size effects of doping and stress.
-  - Ion implantation used as a standard method for doping semiconductors.
-  - This is a completely novel simulation (*ab-initio* has been done on the smaller scales **AND** large scale with classical molecular dynamics)
+Nanostructures and nanostructured materials have been explored extensively as components of photovoltaics in an effort to improve efficiency in systems that might be processed at low cost [1]. The use of single nanowires as photovoltaic elements presents several key advantages which may be leveraged to produce high-efficiency, robust, integrated nanoscale PV power sources. First, the principle of bottom-up design allows the rational control of key nanomaterial parameters, which will determine PV performance, including chemical/dopant composition, diode junction structure, size, and morphology [2].
+
+Whilst the Si-Ge heterostructures have been studied since the mid-70s, it is only in the last 13 years that growth of radial heterostructures (i.e. core-shell) have been possible due to advances in experimental techniques [3]. Core-shell NWs have several advantages over the other possible heterostructures: (i) better confinement of carriers due to sharp interfaces, (ii) carrier mobilities in Ge are higher than in Si. These additionally make them excellent candidate fornext generation MOSFETs [4].
+
+Core–shell nanowires (NWs) composed of silicon (Si) and germanium (Ge) are key structures for realizing high mobility transistor channels, since the site-selective doping and band-offset in core–shell NWs separate the carrier transport region from the impurity doped region, resulting in the suppression of impurity scattering [5]. Ion implantation is a standard technique used in the industry for manufacture of doped electronics [6]. The manufacturing of ever smaller feature size semiconductor devices requires precise control of the dopant distribution following ion implantation and rapid thermal annealing. The defects and strain produced by the implantation of dopant ions can have dramatic effects on the diffusion of dopant atoms, but the mechanisms are not completely understood at present.
+
+The ability to simulate large cells is attractive because finite size effects of this type of calculation are very important. One such example would be to consider the dissipation of energy upon impact, i.e. vibrations interacting across periodic boundary conditions. Whilst there are papers that model ion implantation, these are typically done with classical molecular dynamics [7], thus assuming the potentials are transferable to the system and telling us nothing about the electronic structure. This work will be completely novel in this respect, it will be the first large scale *ab-initio* ion implantation study. Our objective is to see how the shell thickness and NW structure change the final ion location in a complex interplay between strain, surface and interface effects.
   
 ## Methodology
   - O(*N*) DFT
@@ -44,5 +36,11 @@ In this seciton we will attempt to describe how we will execute this project, br
 
 Given the approximate sizes of the jobs highlighted in the technical assessment (~16,000 cores or ~10% of total cores), ARCHER really is the only machine large enough to perform these sorts of calculations within the UK. In addition to this, the environment, libraries etc, provided on ARCHER will allow us to tune and run CONQUEST to its fullest potential. Since the proposed calculations will be amoung the largest ever done, certainly for *ab-initio* molecular dynamics, the high speed interconnects on ARCHER are a requisite to achieve the scaling required for such massive calculations.
 
-
-A S Torralba et al 2008 J. Phys.: Condens. Matter 20 294206
+[1] M. Law *et al*. Nature Materials **4**, 455-459 (2005)
+[2] B. Tian , T. J. Kempa and C. M. Lieber. Chem. Soc. Rev. **38**, 16-24 (2009)
+[3]  L. J. Lauhon; M. S. Gudiksen; D. Wang; C. M. Lieber. Nature **420**, 57 (2002)
+[4] Y. Cui and C. M. Lieber. Science **291**, no. 5505 pp. 851-853 (2001)
+[5] N. Fukata *et al*. ACS Nano **6**, no. 10, pp 8887–8895 (2012)
+[6] J. F. Ziegler. Handbook of Ion Implantation Technology, (North-Holland, Amsterdam, (1992)
+[7] T. Diaz de la Rubia and G. H. Gilmer. Phys. Rev. Lett. **74**, 2507 (1995).
+[8] A. S. Torralba et al. J. Phys.: Condens. Matter **20**, 294206 (2008)
